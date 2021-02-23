@@ -10,13 +10,12 @@
 		}
 	],
 	"require": {
-		"php": "^7.4",
-		"consistence/consistence": "~1.0|~2.0",
-		"jms/serializer": "~2.0"
+		"php": "^7.4|^8.0",
+		"jms/serializer": "^3.11",
+		"slevomat/consistence": "^2.1"
 	},
 	"require-dev": {
 		"ext-simplexml": "*",
-		"consistence/coding-standard": "3.7",
 		"jakub-onderka/php-console-highlighter": "0.4",
 		"jakub-onderka/php-parallel-lint": "1.0",
 		"phing/phing": "2.16.1",
